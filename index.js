@@ -12,6 +12,10 @@ module.exports = function() {
 		});
 	});
 
+	that.getMouse = function() {
+		return mouse;
+	};
+
 	that.ref = function() {
 		if(mouse) mouse.ref();
 	};
